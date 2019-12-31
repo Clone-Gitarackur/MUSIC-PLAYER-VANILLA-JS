@@ -1,0 +1,199 @@
+@media only screen and (max-width: 620px){
+
+    * {
+        padding : 0;
+        margin : 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* font-family: "Open Sans"; */
+        
+      }
+    
+      
+      body{
+        width: 100%;
+        margin: 0%;
+        display: block;
+        background: linear-gradient(to right,#ffd200, #f7971e);
+        color: white;
+      }
+      
+
+      h1{
+        text-align: center;
+        font-size: 1.5em;
+    
+      }
+
+
+
+      #musicplayer{
+        width: 100%;
+        padding: 0px;
+        margin: auto;
+        margin-top: 10%;
+        text-shadow: 1.5px 1.5px white;
+       }
+  
+ 
+       .playerBody{
+        box-shadow: 5px 5px 5px 5px black;
+        width: 100%;
+        margin: auto;
+        padding: 5%;
+        border-radius: 25px;
+       
+       }
+
+
+       .BH{
+        width: 100%;
+        height: 350px;
+        display: block;
+        background-color: black;
+        margin: auto;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding: 1%;
+      }
+ 
+      .banner{
+       background: linear-gradient(to right, #f7971e, #ffd200);
+       padding: 4%;
+       margin: auto;
+       margin-top: auto;
+       margin-bottom: auto;
+       width: 90%;
+       height: 90%;
+       border-radius: 50%;
+       border:1px solid black;
+       display: block;
+       margin-top: 4%;
+      }
+
+
+      #SongTitle{
+        width: 100%;
+        margin: auto;
+        padding: 2%;
+        font-size: 15px;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        background-color: black;
+        text-shadow: 1.5px 1.5px black;
+       }
+  
+  
+      #PlistButton{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        padding: 10%;
+        background-color: black;
+        border: 1px solid black;
+      }
+  
+
+      #prev, #playPause, #next{
+        border-radius: 50%;
+        width: 30%;
+        height: 30%;
+        padding: 1%; 
+        margin: auto; 
+        cursor: pointer;
+        display: block;
+        background: linear-gradient(to right, #f7971e, #ffd200);
+       }
+
+       #prev:hover{
+        transform: scale(1.25, 1.25);
+       }
+       
+       
+      #playPause:hover{
+        transform: scale(1.5, 1.5);
+      }
+       
+       
+      #next:hover{
+         transform: scale(1.5, 1.5);
+       }
+  
+  
+       #meterHolder{
+        background-color: black;
+        width: 100%;
+        margin: auto;
+       }
+
+       
+       #meter{
+        width: 100%;
+        margin: auto;
+        display: block;
+        border-radius: 25px;
+        padding: 2%;
+        background: linear-gradient(to right, #f7971e, #ffd200);
+       }
+  
+       .loader{
+        width: 0%;
+        padding: 1%;
+        background-color: white;
+        border-radius: 40px;
+      }
+ 
+ 
+      #ShowTime{
+        width: 0%;
+        position: relative;
+        color: white;
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 18px;
+        text-shadow: 1.5px 1.5px #ffd200;
+      }
+      
+      #SR{
+        display: flex;
+        width: 100%;
+        background-color: black;
+        margin: auto;
+      }
+
+      #Shuffle, #Repeat{
+        background-color: black;
+        border-radius: 50%;
+        width: 30%;
+        height:50%;
+        padding: 2%;
+        margin: auto;
+        cursor: pointer;
+        display: block;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        color: white;
+        text-shadow: 1.5px 1.5px #ffd200;
+        font-size: 10px;
+      }
+
+      #IPB{
+        background: black;
+        border-radius: 50%;
+        width: 30%;
+        height: 50%;
+        padding: 2%;
+        margin: auto;
+        cursor: pointer;
+        display: block;
+        margin-top: 4%;
+        margin-bottom: 0px;
+        color: white;
+        text-shadow: 1.5px 1.5px #ffd200;
+        font-size: 10px;
+        box-shadow: 5px 5px 5px 5px black;
+      }
+
+    }
+    
