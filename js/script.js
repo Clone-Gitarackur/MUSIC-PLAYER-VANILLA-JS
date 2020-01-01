@@ -179,7 +179,11 @@ var Animate= function(){
         PlayAndDisplay();
         // the animation canvas code for the banner
         Animate();
+        if(PLayPause.src="./images/PL.png"){
         PLayPause.src="./images/PAU.png";
+        }else{
+        PLayPause.src="./images/PL.png"
+        }
     }
     
 
@@ -194,7 +198,11 @@ var Animate= function(){
         PlayAndDisplay();
         // the animation canvas code for the banner
         Animate();
+        if(PLayPause.src="./images/PL.png"){
         PLayPause.src="./images/PAU.png";
+        }else{
+        PLayPause.src="./images/PL.png"
+        }
     }
     
 
