@@ -179,12 +179,8 @@ var Animate= function(){
         PlayAndDisplay();
         // the animation canvas code for the banner
         Animate();
-        if(PLayPause.src="./images/PL.png"){
         PLayPause.src="./images/PAU.png";
-        }else{
-        PLayPause.src="./images/PL.png"
-        }
-    }
+       }
     
 
     // for playing previous song
@@ -198,11 +194,8 @@ var Animate= function(){
         PlayAndDisplay();
         // the animation canvas code for the banner
         Animate();
-        if(PLayPause.src="./images/PL.png"){
+        
         PLayPause.src="./images/PAU.png";
-        }else{
-        PLayPause.src="./images/PL.png"
-        }
     }
     
 
@@ -216,11 +209,6 @@ var Animate= function(){
         ShowTime.style.left= position * 100 + "%";
         ShowTime.innerHTML= RoundOff(position, 2);
         ShowTime.style.textAlign="center";
-
-
-        if(fillBar.style.width==="100%"){
-            PLayPause.src="./images/PL.png";
-        }
                
     }
 
