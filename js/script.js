@@ -212,6 +212,14 @@ var Animate= function(){
                
     }
 
+// Set progress bar
+function setProgress(e) {
+  const width = this.clientWidth;
+  const clickX = e.offsetX;
+  const duration = audio.duration;
+
+  audio.currentTime = (clickX / width) * duration;
+}
 
 
 
@@ -316,6 +324,12 @@ var Animate= function(){
         PlayerBar();
     })
     
+
+// Click on progress bar
+fillBar.addEventListener('click', setProgress);
+
+
+
     Shuff.addEventListener("click", function(){
         
         Shuffle();
