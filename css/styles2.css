@@ -150,6 +150,7 @@
   
        .loader{
         width: 0%;
+        height: 100px;
         padding: 1%;
         background-color: white;
         border-radius: 40px;
