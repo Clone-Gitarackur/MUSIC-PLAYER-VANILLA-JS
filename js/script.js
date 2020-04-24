@@ -214,7 +214,7 @@ var Animate= function(){
 
 // Set progress bar
 function setProgress(e) {
-  const width = this.clientWidth;
+  const width = fillBar.clientWidth;
   const clickX = e.offsetX;
   const duration = audio.duration;
 
